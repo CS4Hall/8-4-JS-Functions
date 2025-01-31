@@ -17,19 +17,28 @@ Hint: Your name should be a string, so make sure you keep it inside "quotation m
 
 It's time to wrap your code in a function:
 <br>
+
 - Start off by creating a new function, paying close attention to (parenthesis) and {curly braces} ;
 - Move all of your code inside the function;
 - Call your new function once to make sure it works.
-<br><br>
+  <br><br>
+
 Bonus: Indent the code inside the function, by selecting it and clicking TAB. It doesn't change the result, but it makes the code look nicer and easier to read ^ . ^
-<br><br>
+  <br><br>
+
 ### Step #3 - Keep calling it! <br>
+
 Now that we have it in a function, it's easy for us to call it multiple times. Call it at least 3 more times! Names everywhere!
 <br><br>
-### Step #4 - Add a feature! <br>
 
-Try to add one of the following extra features to this lesson: 
+### Step #4 - Add a new custom fuction! <br>
+
+The starter code contains a `drawStar` function that is called three times when the mouse is clicked.
 <br>
-- Change Color Based on mouseX and mouseY [Example Code](https://docs.google.com/presentation/d/18CBxJdV9EW1gLmR3ZAtA_Etil6GiPvKhSNLmE5Wq63k/edit#slide=id.g2d8681d0968_0_12)
-- Change Font [Example Code](https://docs.google.com/presentation/d/18CBxJdV9EW1gLmR3ZAtA_Etil6GiPvKhSNLmE5Wq63k/edit#slide=id.g2d87d56757f_1_138)
-<br><br>
+
+- Duplicate the `drawStar` function code
+- Title the function `drawFace` and update the code so that it draws an emoji face
+- Add two calls to this function in the `mouseClicked` function.
+
+<br>
+If done correctly, when the mouse is clicked, three star and two face emojis should appear near where the user clicked.
